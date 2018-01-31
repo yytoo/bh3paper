@@ -1,0 +1,60 @@
+/* pages/supply/supply.wxss */
+.supplyBtn{
+  width: 70%;
+  margin-top: 30rpx;
+}
+.upImage{
+  width: 100%;
+}
+.upTitleWrap{
+  margin: 20rpx 0;
+}
+.upTitle{
+  color: #00c3ff;
+  font-weight: 700;
+}
+.supplyMsg{
+  display: flex;
+  width: 100%;
+  color: #00c3ff; 
+}
+.supplyMsgItem{
+  flex: 1;
+  text-align: center;
+}
+.loginMsg{
+  width: 100%;
+  color: #00c3ff;
+  text-align: center;
+}
+.loginMsg .reg{
+  color: #ffe14b;
+}
+.btnView{
+  margin-top: 20rpx;
+  width:80%;
+  height:9%;
+}
+.torule{
+  padding: 0 10px;
+  background: #00c3ff;
+  color: black;
+  transform: skew(-10deg);
+  border-radius: 10px;
+  width:40%;
+}
+.leftTorule{
+  float:left;
+}
+.rightTorule{
+  float:right;
+}
+.toruleBtn{
+  background: transparent;
+  transform: skew(10deg);
+  font-weight: 700;
+}
+
+.toruleBtn::after{
+  border: none;
+}

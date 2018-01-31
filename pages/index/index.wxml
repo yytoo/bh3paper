@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 首页背景图 -->
+  <image src='../../images/indexBack.jpg' class='pageBack' bindtap="supply"></image>
+</view>

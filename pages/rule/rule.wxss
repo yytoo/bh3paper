@@ -1,0 +1,22 @@
+/* pages/rule/rule.wxss */
+.rule{
+  width: 80%;
+  height: 65%;
+  margin: 50rpx 0;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
+  color: #00c3ff;
+  border: 1px solid #00c3ff;
+}
+.ruleTitle{
+  width: 100%;
+  text-align: center;
+  margin-top: 50rpx;
+  font-size: 28px;
+  color: #00c3ff;
+}
+
+.toSupplyBtn{
+  background: #ffe14b;
+  font-weight: 700;
+}

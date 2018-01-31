@@ -1,0 +1,32 @@
+<!--pages/supply/supply.wxml-->
+<view class='container'>
+  <image src='../../images/supplyBack.jpg' class='pageBack'></image>
+  <image class='upImage' src="{{picUrl1}}" mode='widthFix' ></image>
+  <!--<image class='upImage' src="http://web.static.bh3.com/www_bh3_com/news_image/uploads/e162c3f9ba6ecdfeb3b78ce8c76ee3ee.png" mode='widthFix' ></image>-->
+  <view class='upTitleWrap'>
+    <text class='upTitle'>===== UP时间 =====</text>
+  </view>
+  <image class='upImage' src="{{picUrl2}}" mode='widthFix' ></image>
+  <!--<image class='upImage' src="http://web.static.bh3.com/www_bh3_com/news_image/UE_Editor/1512041809910519.png" mode='widthFix' ></image>-->
+  <view class='upTitleWrap'>
+    <text class='upTitle'>===== 用户信息 =====</text>
+  </view>
+  <view wx:if="{{id}}" class='supplyMsg'>
+    <view class='supplyMsgItem'>用户名：{{nickname}}</view>
+    <view class='supplyMsgItem'>抽奖次数：{{times}}次</view>
+  </view>
+  <view wx:else class='loginMsg' bindtap='toReg'>
+    <text>注册可每天抽红包哦 >>> </text>
+    <text class='reg'>前往注册!</text>
+  </view>
+  <image class="supplyBtn" src="../../images/oneSupply.jpg" mode='widthFix' bindtap='oneSupply'></image>
+  <image class="supplyBtn" src="../../images/tenSupply.jpg" mode='widthFix' bindtap='tenSupply'></image>
+  <view class="btnView">
+  <view class='torule  leftTorule'>
+    <button class='toruleBtn leftBtn' bindtap='toRule'>查看规则</button> 
+  </view>
+   <view class='torule rightTorule'>
+     <button class='toruleBtn rightBtn' bindtap='toRed'>查看红包</button>
+   </view>
+   </view>
+</view>

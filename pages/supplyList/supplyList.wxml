@@ -1,0 +1,20 @@
+<!--pages/supplyList/supplyList.wxml-->
+<view class='container'>
+  <image src='../../images/supplyBack.jpg' class='pageBack'></image>
+  <view class='supplyList'>
+    <view class='section' wx:for="{{supplyInfo.length}}" wx:key="*this" animation="{{animationData[index]}}">
+      <view class='supply' style="background-color: {{StarColor[index]}};">
+         <!-- <text>{{supplyInfo[index].name}}</text>  -->
+        <image class='supplyImage' src="{{supplyInfo[index].picUrl}}"></image>
+      </view>
+      <view class='number'>
+        <text class='section-title'>x{{supplyInfo[index].num}}</text>
+        <!-- <text class='section-title2'>LV.1</text> -->
+      </view>
+    </view>
+  </view>
+  <view class="toSupplyView">
+    <button wx:if="{{toSupplyBtnOp}}" class='toSupplyBtn leftBtn' bindtap='toSupply'>返回首页         </button>
+    <button wx:if="{{toSupplyBtnOp}}" class='toSupplyBtn rightBtn' bindtap='tryAgain'>再来{{time}}次             </button>
+  </view>
+</view>

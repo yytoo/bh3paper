@@ -1,0 +1,47 @@
+/* pages/ redenv/redenv.wxss */
+.redenvTitle{
+  width: 100%;
+  text-align: center;
+  margin-top: 50rpx;
+  font-size: 28px;
+  color: #00c3ff;
+}
+
+.toSupplyBtn{
+  background: #ffe14b;
+  font-weight: 700;
+}
+
+.redenvList{
+  width: 90%;
+  height: 65%;
+  overflow: auto;
+  margin: 50rpx 0;
+}
+
+.redenvListItem{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25rpx;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.redenvListItem .item{
+  width: 33%;
+}
+
+.redenvListItem .danger{
+  color: #ffe14b;
+  height: 50rpx;
+}
+
+.redenvListTitle{
+  color: #00c3ff;
+  font-size: 18px;
+}
+.giveOut{
+  width:50rpx;
+  background-color: #c5c5c5;
+}

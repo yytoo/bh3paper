@@ -1,0 +1,20 @@
+<!--pages/ redenv/redenv.wxml-->
+<view class='container'>
+  <image src='../../images/supplyBack.jpg' class='pageBack'></image>
+  <view class='redenvTitle'>红包</view>
+  <view class='redenvList'>
+    <view class='redenvListItem redenvListTitle'>
+      <view class='item'>领取日期</view> 
+      <view class='item'>领取金额</view>
+      <view class='item'>领取情况</view>
+    </view>
+    <view class='redenvListItem'wx:for="{{redPackage.length}}" wx:key="*this">
+      <view class='item'>{{redPackage[index].drawTime}}</view> 
+      <view class='item'>￥{{redPackage[index].amount}}</view>
+      <view class='item danger'>
+         {{redPackage[index].giveOut}}
+      </view>
+    </view>
+  </view>
+  <button class='toSupplyBtn' bindtap='toSupply'>返回补给</button>
+</view>

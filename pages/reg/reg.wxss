@@ -1,0 +1,47 @@
+/* pages/reg/reg.wxss */
+.upTitleWrap{
+  margin-top: 100rpx;
+  margin-bottom: 40rpx;
+}
+.upTitle{
+  color: #00c3ff;
+  font-size: 28px;
+}
+form{
+  width: 100%;
+}
+.formItem{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50rpx;
+}
+.formInput{
+  width: 70%;
+  height: 40px;
+  padding: 0 30rpx;
+  line-height: 40px;
+  border-radius: 10rpx;
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+.formBtnWrap{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+.toIndex{
+  width: 40%;
+  background: #00c3ff;
+  font-weight: 700;
+}
+.formBtn{
+  width: 40%;
+  background: #ffe14b;
+  font-weight: 700;
+}

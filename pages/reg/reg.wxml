@@ -1,0 +1,25 @@
+<!--pages/reg/reg.wxml-->
+<view class='container'>
+  <image src='../../images/supplyBack.jpg' class='pageBack'></image>
+  <view class='upTitleWrap'>
+    <text class='upTitle'>用户注册</text>
+  </view>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class='formItem'>
+      <input class='formInput' type='text' placeholder='请输入用户名' name='username'></input>
+    </view>
+    <view class='formItem'>
+      <input class='formInput' type='text' placeholder='请输入昵称' name='nickname'></input>
+    </view>
+    <view class='formItem'>
+      <input class='formInput' type='password' placeholder='请输入密码' name='password'></input>
+    </view>
+    <view class='formItem'>
+      <input class='formInput' type='password' placeholder='确认密码' name='subPassword'></input>
+    </view>
+    <view class='formBtnWrap'>
+      <button class='toIndex' bindtap='toIndex'>返回首页</button>
+      <button class='formBtn' formType="submit">注 册</button>
+    </view>
+  </form>
+</view>

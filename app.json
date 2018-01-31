@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/reg/reg",
+    "pages/supply/supply",
+    "pages/supplyList/supplyList",
+    "pages/rule/rule",
+    "pages/logs/logs",
+     "pages/redenv/redenv"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffff73",
+    "navigationBarTitleText": "十回补给",
+    "navigationBarTextStyle": "black"
+  }
+}

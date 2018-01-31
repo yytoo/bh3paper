@@ -1,0 +1,14 @@
+<!--pages/rule/rule.wxml-->
+<view class='container'>
+  <image src='../../images/supplyBack.jpg' class='pageBack'></image>
+  <view class='ruleTitle'>补给规则</view>
+  <view class='rule'>
+    <text>1.已注册的用户每天可获得20次补给次数，补给时消耗等量抽奖次数。
+2.补给有一定的几率获得红包。
+2.抽到红包的用户可在公众号“崩坏3情报室”回复“红包兑奖”获取兑奖方式。
+4.请注意补给所得到的材料不等同于游戏里的，今后将陆续推出更多惊喜，敬请关注。
+5.崩崩崩十连之前，可以先来这里测试下人品噢~
+</text>
+  </view>
+  <button class='toSupplyBtn' bindtap='toSupply'>返回补给</button>
+</view>
