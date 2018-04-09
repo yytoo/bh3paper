@@ -64,7 +64,7 @@ App({
   globalData: {
     userInfo: null,
     logCode: null,
-    url: 'https://gamepaper.cn',
+    url: 'https://XXXXXX.cn',
     openId: "",
     id:"",
     username:"",
